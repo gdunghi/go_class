@@ -1,14 +1,13 @@
 package main
 
-import (
-	"fmt"
-)
+
+
+var plush = add
 
 func add(x int, y int) int {
 	return x + y
 }
 
 func main() {
-	fmt.Println("Hello, playground")
-	fmt.Println(add(42,13))
+	println(plush(43,12))
 }
